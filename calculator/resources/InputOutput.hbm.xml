@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate Mapping DTD 3.0//EN"
+                "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="atul.calculator.newproject.InputOutput" table="InputOutput">
+        <id name = "Sr_no" type = "int" column = "id">
+            <generator class="native"/>
+        </id>
+        <property name="f_no"></property>
+        <property name="s_no"></property>
+        <property name="res"></property>
+    </class>
+</hibernate-mapping>
